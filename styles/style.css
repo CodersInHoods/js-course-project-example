@@ -1,0 +1,120 @@
+body {
+  background: #26282b;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  border-bottom: rgba(64, 224, 208, 0.507) solid 1px;
+}
+
+nav > h2 {
+  margin: 0;
+}
+
+.tweet > p {
+  margin: 1.5em;
+  min-height: 3em;
+}
+
+main {
+  min-height: calc(100vh - 3em);
+  max-width: 600px;
+  margin: auto;
+  border-right: rgba(64, 224, 208, 0.507) solid 1px;
+  border-left: rgba(64, 224, 208, 0.507) solid 1px;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+div#tweets {
+  border: rgba(64, 224, 208, 0.507) solid 1px;
+  border-radius: 1.5em;
+}
+
+div#tweets.error {
+  color: #ff6f6f;
+  padding: 2em;
+}
+
+#tweets > .tweet {
+  border-bottom: rgba(64, 224, 208, 0.507) 1px solid;
+}
+
+#tweets > .tweet:last-child {
+  border-bottom: none;
+}
+
+.tweet > .buttons {
+  margin-top: 1em;
+  display: flex;
+}
+
+.tweet > .buttons > button {
+  width: calc(100% / 3);
+  margin: auto;
+  height: 2em;
+  color: white;
+  border: none;
+  border-top: rgba(64, 224, 208, 0.507) solid 1px;
+  cursor: pointer;
+}
+
+.tweet > .buttons > button.delete {
+  border: #fa7070 solid 1px;
+  color: #fa7070;
+  text-align: center;
+  height: 2em;
+  width: 2em;
+}
+
+#tweets > .tweet:last-child > .buttons > button.delete {
+  border-bottom-right-radius: 1.5em;
+}
+
+.tweet > .buttons > button:nth-child(3) {
+  border-left: rgba(64, 224, 208, 0.507) solid 1px;
+}
+
+.tweet > .buttons > button:first-child {
+  border-right: rgba(64, 224, 208, 0.507) solid 1px;
+}
+
+form#new-tweet {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+form#new-tweet > textarea {
+  background: transparent;
+  color: white;
+  border-radius: 1em;
+  min-height: 2em;
+  padding: 1.5em;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: #38857e solid 1px;
+}
+
+form#new-tweet > input[type="submit"] {
+  height: 2em;
+  border-radius: 1em;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background: turquoise;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button {
+  background: transparent;
+}
+
+button:hover {
+  background: rgba(128, 128, 128, 0.315);
+}

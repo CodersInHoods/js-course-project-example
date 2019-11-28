@@ -1,0 +1,39 @@
+{
+  "tweets": [
+    {
+      "id": 1,
+      "content": "this is a good platform",
+      "retweets": 23,
+      "likes": 14,
+      "replies": 8
+    },
+    {
+      "id": 2,
+      "content": "this is a BAD platform. THE WORST",
+      "retweets": 20003,
+      "likes": 10004,
+      "replies": 5004
+    },
+    {
+      "content": "hello\n",
+      "retweets": 5,
+      "likes": 4,
+      "replies": 4,
+      "id": 3
+    },
+    {
+      "content": "goodbye",
+      "retweets": 5,
+      "likes": 5,
+      "replies": 5,
+      "id": 4
+    },
+    {
+      "content": "Hey",
+      "retweets": 18,
+      "likes": 10,
+      "replies": 5,
+      "id": 5
+    }
+  ]
+}
